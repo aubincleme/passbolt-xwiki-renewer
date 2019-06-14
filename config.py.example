@@ -1,0 +1,4 @@
+SERVER_URL = "https://yourpassboltinstance.com"
+SERVER_FINGERPRINT = ""
+USER_FINGERPRINT = ""
+GPG_HOME = "/home/yourhome"

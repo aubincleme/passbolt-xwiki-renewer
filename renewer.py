@@ -4,10 +4,10 @@ import logging
 import requests
 import sys
 
-from config import *
+from config import GPG_HOME, SERVER_URL, USER_FINGERPRINT, SERVER_FINGERPRINT
 
 from requests_gpgauthlib import GPGAuthSession
-from requests_gpgauthlib.utils import create_gpg, get_workdir
+from requests_gpgauthlib.utils import create_gpg
 
 from requests.auth import HTTPBasicAuth
 from requests.utils import dict_from_cookiejar
